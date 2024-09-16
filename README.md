@@ -19,7 +19,7 @@ Enter your name: Alice
 Enter your email: alice@example.com
 Identity created successfully. Your private key: ...
 
-# Blockchain-Based Identity Management System
+## Blockchain-Based Identity Management System
 
 This project implements a decentralized identity management system using blockchain technology. It allows users to create and manage their identities securely and transparently.
 
