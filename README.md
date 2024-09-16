@@ -95,6 +95,6 @@ contract IdentityManagement {
 ## Python Script
 The Python script interacts with the smart contract to create and manage identities. Here is a brief overview of the script:
 
-Connect to Blockchain: Connects to the local blockchain using Web3.py.
-Create Identity: Generates a public/private key pair and stores the identity on the blockchain.
-Get Identity: Retrieves and displays identity details from the blockchain.
+- **Connect to Blockchain**: Connects to the local blockchain using Web3.py.
+- **Create Identity**: Generates a public/private key pair and stores the identity on the blockchain.
+- **Get Identity**: Retrieves and displays identity details from the blockchain.
