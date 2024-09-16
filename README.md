@@ -31,7 +31,7 @@ In a world where digital identities are increasingly important, this project lev
 ## Setup Instructions
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/barrosleo/blockchain-identity-management.git
+    git clone https://github.com/Barrosleo/blockchain-identity-management.git
     cd blockchain-identity-management
     ```
 
