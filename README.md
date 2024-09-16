@@ -1,26 +1,5 @@
 # Blockchain-Based Identity Management System
 
-This tool creates a decentralized identity management system using blockchain technology.
-
-## How to Use
-
-1. Clone the repository.
-2. Install the required dependencies.
-3. Set up a local blockchain using Ganache.
-4. Compile and deploy the smart contract using Remix IDE.
-5. Run the `identity_management.py` script.
-6. Choose to create or get an identity.
-
-## Example
-
-```python
-Do you want to (c)reate or (g)et an identity? c
-Enter your name: Alice
-Enter your email: alice@example.com
-Identity created successfully. Your private key: ...
-
-## Blockchain-Based Identity Management System
-
 This project implements a decentralized identity management system using blockchain technology. It allows users to create and manage their identities securely and transparently.
 
 ## Table of Contents
@@ -112,3 +91,10 @@ contract IdentityManagement {
         return (identity.name, identity.email, identity.publicKey);
     }
 }
+
+Python Script
+The Python script interacts with the smart contract to create and manage identities. Here is a brief overview of the script:
+
+Connect to Blockchain: Connects to the local blockchain using Web3.py.
+Create Identity: Generates a public/private key pair and stores the identity on the blockchain.
+Get Identity: Retrieves and displays identity details from the blockchain.
