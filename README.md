@@ -91,7 +91,7 @@ contract IdentityManagement {
         return (identity.name, identity.email, identity.publicKey);
     }
 }
-
+```
 Python Script
 The Python script interacts with the smart contract to create and manage identities. Here is a brief overview of the script:
 
